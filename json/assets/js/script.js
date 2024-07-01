@@ -4,7 +4,7 @@ var data;
  
 $(document).ready(function() {
 	$.ajax({
-		url: "./assets/js/datos.json",
+		url: "assets/js/datos.json",
 		data: "nocache=" + Math.random(),
 		type: "GET",
 		dataType: "json",
