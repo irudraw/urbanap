@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lector de una archivo JSON</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- libreria para poder leer el archivo json -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+	
+	<!-- lector de archivos json -->
+	<script type="text/javascript">
+		function lee_json() {
+			 $.getJSON("libros.json", function(libros) {
+			 	
+			 	var ul = $("<ul></ul>"); // Creamos un ul
+
+				for( var i = 0; i < libros.length; i++ ) {
+				  var li = $("<li></li>")// Creamos un elemento li 
+				  // Añadimos el titulo y el autor al elemento li
+				  li.append(libros[i].Titulo + " (" + libros[i].Autor + ")"); 
+
+				  // Comprobamos si el libro tiene partes
+				  if( libros[i].Partes != undefined && libros[i].Partes.length > 0 ) {
+				    var ulInterno = $("<ul></ul>"); // Creamos otro elemento ul
+
+				    for( var j = 0; j < libros[i].Partes.length; j++ ) {
+				      // Por cada parte crearemos un elemento li que añadiremos al ul 
+				      // que acabamos de crear
+				      ulInterno.append("<li>" + libros[i].Partes[j].Tomo + " - " + 
+				        libros[i].Partes[j].Titulo + "</li>"
+				      )
+				    } 
+				    // Añadimos el último elemento ul al li creado primero
+				    li.append(ulInterno);  
+				  }
+				  ul.append(li); // Añadimos el li inicial al ul inicial. 
+				}
+
+			 $("body").append(ul);
+			 });
+		}
+	</script>
+</head>
+<body onload="lee_json();">
+<header>
+		<h1>Lector de Archivos JSON</h1>
+	</header>
+	
+
+
+</body>
+</html>
