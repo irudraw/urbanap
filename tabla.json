@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "nombre": "Bolsas T-Shirt",
+        "info": "Bolsa de Polietileno alta Densidad Blanca",
+        "medidas": "Medidas : 12x16 / 15x19 / 19x20 / 21x24 / 27x32 Pulgadas",
+        "color": "Impresión de 1 a full color",
+        "img": "assets/img/bolsas.png"
+    },
+    {
+        "id": 2,
+        "nombre": "BOLSAS MODELO ASA LOOP PAVONADA",
+        "info": "",
+        "medidas": "Medidas : 12X14 / 15X15 / 20X18 Pulgadas",
+        "color": "Impresión de 1 a full color",
+        "img": "assets/img/PAVONADA.png"
+    },
+    {
+        "id": 3,
+        "nombre": "BOLSAS MODELO PAVONADA ASA REFORZADA CON FUELLE EN BASE",
+        "info": "",
+        "medidas": "Medidas : 16X16 X 1.5 Pulgadas",
+        "color": "Impresión de 1 a full color",
+        "img": "assets/img/PAVONADA.png"
+    },
+    {
+        "id": 4,
+        "nombre": "BOLSAS MODELO ALTA DENSIDAD BLANCA",
+        "info": "",
+        "medidas": "Medidas : 7X10 / 8X12 /10X15 / 12X18 /14X20/16X20 Pulgadas",
+        "color": "Impresión de 1 a full color",
+        "img": "assets/img/PAVONADA.png"
+    },
+    {
+        "id": 5,
+        "nombre": "BOLSAS MODELO  PAVONADAS",
+        "info": "",
+        "medidas": "Medidas : 7X10 / 8X12 /10X15 / 12X18 /14X20/16X20 Pulgadas",
+        "color": "Impresión de 1 a full color",
+        "img": "assets/img/PAVONADA.png"
+    },
+    {
+        "id": 6,
+        "nombre": "BOLSAS MODELO BAJA DENSIDAD ASA REFORZADA",
+        "info": "",
+        "medidas": "Medidas : 8X12 /10X15 / 12X18 / 14X20 / 16X20 / 18X24 / 20X30 Pulgadas",
+        "color": "Impresión de 1 a full color",
+        "img": "assets/img/PAVONADA.png"
+    }
+
+]
