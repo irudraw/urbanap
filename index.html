@@ -272,7 +272,7 @@ Medidas : 12X14 / 15X15 / 20X18 pulgadas </span></p>
 
 
 	<script>
-        var contenido = document.querySelector('#contenido')
+        var contenido = document.write ('#contenido')
 
 		fetch('tabla.json')
                 .then(res => res.json())
@@ -286,9 +286,7 @@ Medidas : 12X14 / 15X15 / 20X18 pulgadas </span></p>
             contenido.innerHTML = ''
             for(let valor of datos){
                 // console.log(valor.nombre)
-                // contenido.innerHTML += `
-
-  document.writedocument.write ( += `
+		contenido.innerHTML += `
                 
 <section class="slide fade-6 kenBurns" data-name="productos">
     <div class="content">
@@ -321,7 +319,7 @@ Medidas : 12X14 / 15X15 / 20X18 pulgadas </span></p>
       <div class="background" style="background-image:url(assets/img/background/img-89.jpg)"></div>
     </section>
                 
-                `)
+                `
             }
         }
 
