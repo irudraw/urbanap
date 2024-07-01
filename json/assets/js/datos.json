@@ -1,0 +1,176 @@
+{
+    "videos": [
+      {
+        "Titulo": "RESPONSIVE WEB DESIGN CON BOOTSTRAP",
+        "Tiempo": "01:07:20",
+        "Final": "si"
+      },
+      {
+        "Titulo": "Presentación",
+        "Tiempo": "00:03:20",
+        "Final": "si"
+      },
+      {
+        "Titulo": "*** Definición del proyecto de diseño",
+        "Final": "si"
+      },
+      {
+        "Titulo": "- Introducción",
+        "Tiempo": "00:04:50",
+        "Final": "si"
+      },
+      {
+        "Titulo": "- Entorno de trabajo",
+        "Tiempo": "00:04:50",
+        "Final": "si"
+      },
+      {
+        "Titulo": "- Esquema y estructura del proyecto de diseño",
+        "Tiempo": "00:07:45",
+        "Final": "si"
+      },
+      {
+        "Titulo": "- Preparación de imágenes en Photoshop",
+        "Tiempo": "00:06:20",
+        "Final": "si"
+      },
+      {
+        "Titulo": "- Prototipado de la página web",
+        "Tiempo": "00:05:25",
+        "Final": "si"
+      },
+      {
+        "Titulo": "- Estructura HTML5",
+        "Tiempo": "00:10:35",
+        "Final": "si"
+      },
+      {
+        "Titulo": "*** Twitter Bootstrap (Framework Responsive Design)",
+        "Final": "si"
+      },
+      {
+        "Titulo": "- Introducción a bootstrap",
+        "Tiempo": "00:06:25",
+        "Final": "si"
+      },
+      {
+        "Titulo": "- Estructura HTML5 básica para bootstrap",
+        "Tiempo": "00:04:20",
+        "Final": "si"
+      },
+      {
+        "Titulo": "- Sistema de rejilla (grid system) fijo y fluido",
+        "Tiempo": "00:11:14",
+        "Final": "si"
+      },
+      {
+        "Titulo": "- Capacidades Responsive (@media - CSS)",
+        "Tiempo": "00:09:05",
+        "Final": "si"
+      },
+      {
+        "Titulo": "- Base CSS - Tipografías y elementos en línea",
+        "Tiempo": "00:11:49",
+        "Final": "si"
+      },
+      {
+        "Titulo": "- Base CSS - Código preformateado y Tablas",
+        "Tiempo": "00:08:25",
+        "Final": "si"
+      },
+      {
+        "Titulo": "- Base CSS - Formularios",
+        "Tiempo": "00:07:21",
+        "Final": "si"
+      },
+      {
+        "Titulo": "- Base CSS - Botones",
+        "Tiempo": "00:04:36",
+        "Final": "si"
+      },
+      {
+        "Titulo": "- Base CSS - Imágenes e Iconos",
+        "Tiempo": "00:04:25",
+        "Final": "si"
+      },
+      {
+        "Titulo": "- Componentes - Botones",
+        "Tiempo": "00:07:00",
+        "Final": "si"
+      },
+      {
+        "Titulo": "- Componentes - Navegación (NavBar)",
+        "Tiempo": "00:11:16",
+        "Final": "si"
+      },
+      {
+        "Titulo": "- Componentes - Navegación (Breadcrumbs - Pagination)",
+        "Tiempo": "00:04:02",
+        "Final": "si"
+      },
+      {
+        "Titulo": "- Componentes - Etiquetas, insignias",
+        "Tiempo": "00:04:05",
+        "Final": "si"
+      },
+      {
+        "Titulo": "- Componentes - Tipografía - Miniaturas - Alertas",
+        "Tiempo": "00:04:59",
+        "Final": "si"
+      },
+      {
+        "Titulo": "- Componentes - Carrousel",
+        "Tiempo": "00:08:37",
+        "Final": "si"
+      },
+      {
+        "Titulo": "- Componentes - Ventanas modales",
+        "Tiempo": "00:07:38",
+        "Final": "si"
+      },
+      {
+        "Titulo": "- Personalizando y ampliando Bootstrap con LESS css I",
+        "Tiempo": "00:06:45",
+        "Final": "si"
+      },
+      {
+        "Titulo": "- Personalizando y ampliando Bootstrap con LESS css II",
+        "Tiempo": "00:07:31",
+        "Final": "si"
+      },
+      {
+        "Titulo": "*** Maquetación y desarrollo",
+        "Final": "si"
+      },
+      {
+        "Titulo": "- Desarrollo de la página principal (index.html)",
+        "Tiempo": "00:05:07",
+        "Final": "si"
+      },
+      {
+        "Titulo": "- Maquetación de elementos comunes",
+        "Tiempo": "00:06:46",
+        "Final": "si"
+      },
+      {
+        "Titulo": "- Integración de elemento slider de imágenes",
+        "Tiempo": "00:03:00",
+        "Final": "si"
+      },
+      {
+        "Titulo": "- Lightbox para imágenes",
+        "Tiempo": "00:05:27",
+        "Final": "si"
+      },
+      {
+        "Titulo": "- Vídeo responsive desde Youtube o Vimeo",
+        "Tiempo": "00:02:59",
+        "Final": "si"
+      },
+      {
+        "Titulo": "Conclusión",
+        "Tiempo": "00:01:01",
+        "Final": "si"
+      }
+    ]
+}
