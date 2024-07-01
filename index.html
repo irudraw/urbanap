@@ -116,10 +116,8 @@
     <div class="left"><a href="https://urbanapublicidadperu.com" title="Logo"><!--<svg style="width:82px;height:24px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg>--><img src="assets/svg/logo.svg" alt="Urbana Publicidad Perú"></a></div>
     <div class="center">
       <ul class="menu uppercase">
-        <li><a href="#">Tour</a></li>
-        <li><a href="#home2">Upgrade</a></li>
-        <li><a href="#home3">Help</a></li>
-        <li><a href="#home4">Explore</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="productos">Productos</a></li>
       </ul>
     </div>
     <div class="right">
@@ -203,7 +201,7 @@ Aditivo que se agrega durante la producción del plástico y queda latente en la
 
 
 <!-- productos -->
-<section class="slide fade-6 kenBurns" data-name="home4">
+<section class="slide fade-6 kenBurns" data-name="productos">
 <div class="content">
     <div class="container">
       <div class="wrap">
@@ -221,7 +219,7 @@ Medidas : 12x16 / 15x19 / 19x20 / 21x24 / 27x32 pulgadas </span></p>
 		    </h5>
 		    <br>
 
-              <a class="button blue gradient ae-4 fromCenter cropLeft" target="_blank" id="t-s">Pedir Presupuesto</a>
+              <a class="button blue gradient ae-4 fromCenter cropLeft" target="_blank" id="b1">Pedir Presupuesto</a>
             </li>
             <li class="col-6-12">
               <img class="ae-4" width="605" src="assets/img/bolsas.png" alt="iPhones Thumbnail" data-action="zoom"/>
@@ -252,7 +250,7 @@ Medidas : 12X14 / 15X15 / 20X18 pulgadas </span></p>
 		    </h5>
 		    <br>
 
-              <a class="button blue gradient ae-4 fromCenter cropLeft" target="_blank" id="p-v">Pedir Presupuesto</a>
+              <a class="button blue gradient ae-4 fromCenter cropLeft" target="_blank" id="b2">Pedir Presupuesto</a>
             </li>
             <li class="col-6-12">
               <img class="ae-4" width="605" src="assets/img/PAVONADA.png" alt="iPhones Thumbnail" data-action="zoom"/>
@@ -266,7 +264,9 @@ Medidas : 12X14 / 15X15 / 20X18 pulgadas </span></p>
   <div class="background" style="background-image:url(assets/img/background/img-89.jpg)"></div>
 </section>
 
-
+<section id="contenido">
+	
+</section>
 
 <!-- Panel Bottom #15 -->
 <nav class="panel bottom lastSlideOnly">
@@ -277,6 +277,64 @@ Medidas : 12X14 / 15X15 / 20X18 pulgadas </span></p>
 
 <!-- Loading Progress Bar -->
 <div class="progress-bar blue"></div>
+
+
+	<script>
+        var contenido = document.querySelector('#contenido')
+
+        function traer() {
+            fetch('tabla.json')
+                .then(res => res.json())
+                .then(datos => {
+                    // console.log(datos)
+                    tabla(datos)
+                })
+        }
+
+        function tabla(datos) {
+            // console.log(datos)
+            contenido.innerHTML = ''
+            for(let valor of datos){
+                // console.log(valor.nombre)
+                contenido.innerHTML += `
+                
+    <section class="slide fade-6 kenBurns" data-name="productos">
+    <div class="content">
+        <div class="container">
+          <div class="wrap">
+    
+            <div class="fix-12-12">
+              <ul class="flex fixedSpaces verticalCenter reverse">
+                <li class="col-6-12 left middle">
+                  <h1 class="ae-1 fromLeft">${ valor.nombre }</h1>
+                  <p class="ae-2 fromLeft"><span class="opacity-8">${ valor.info }<br>
+                    Medidas : ${ valor.medidas } </span></p>
+    
+                <h5 class="ae-3 fromLeft">
+                    ${ valor.color }
+                </h5>
+                <br>
+    
+                  <a class="button blue gradient ae-4 fromCenter cropLeft" target="_blank" href="https://wa.me/51987691931?text=${ valor.nombre }">Pedir Presupuesto</a>
+                </li>
+                <li class="col-6-12">
+                  <img class="ae-4" width="605" src="${ valor.info }" alt="iPhones Thumbnail" data-action="zoom"/>
+                </li>
+              </ul>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+      <div class="background" style="background-image:url(assets/img/background/img-89.jpg)"></div>
+    </section>
+                
+                `
+            }
+        }
+
+    </script>
+	
 
 	<script>
 							var ts = "T-Shirt"
